@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> The twitter - Tweeting made more simple </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="The twitter - Tweeting made more simple" content="Tweeting is now simple that ever before with this!  ">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../CSS/home.CSS">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-sm-3">
+
+        <div class="row">
+
+          <span class="fa fa-twitter twitter-logo"></span>
+          <ul>
+            <li><a href="explore.html"> <span class="fa fa-search"> Explore</span> </a></li>
+            <li><a href="notification.html"> <span class="fa fa-bell"> Notification </span> </a></li>
+            <li><a href="message.html"> <span class="fa fa-envelope"> Messages </span></a></li>
+            <li><a href="profile.html"> <span class="fa fa-user"> Profile </span></a></li>
+            <li><a href="settings.html"> <span class="fa fa-gear"> Settings </span></a> </li>
+          </ul>
+
+          <button class="btn btn-lg btn-warning" style="width: 50%; margin:10px;"
+            onClick="tweetHandler()">Tweet</button>
+        </div>
+
+      </div>
+      <div class="col-sm-6 mid-col" style="overflow:scroll;">
+        <div class="row" style="font-weight: bold;margin: 3px">Home </div>
+        <hr>
+        <div class="row" style="color: lightgray"><span class="glyphicon glyphicon-user"
+            style="font-size:20px; padding:4px; margin-bottom: 5px; color:lightskyblue"></span> What's happening?</div>
+        <div class="row">
+          <div class="col-sm-5"><span class="glyphicon glyphicon-picture picture"></span> <span
+              class="glyphicon glyphicon-heart picture"></span> <span
+              class="glyphicon glyphicon-calendar picture"></span> <span
+              class="glyphicon glyphicon-align-left picture"></span></div>
+
+          <div class="col-sm-6"></div>
+          <div class="col-sm-1 btn btn-md btn-warning" style="align-items:flex-end;margin:-5px;"
+            onClick="tweetHandler()">tweet</div>
+
+        </div>
+        <hr>
+        <div class="row">
+          <div>
+            <h4 style="text-align: center;font-weight: bolder;">Welcome Back</h4>
+              <p style="text-align: center;color:gray;">Select some topics you are interested in to help personalize
+                your twitter experience, starting with finding people to follow. </p>
+              <button class="btn btn-warning" style="position:relative; left: 45%;">Get started</button>
+          </div>
+        </div>
+        <div class="tweet-list">
+          <hr>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+          <div class="row each-row">
+            <p><span class="fa fa-user user"></span> @user - 1</p>
+            <p class="each-p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum nihil
+              ratione, saepe ad molestias adipisci dignissimos, totam id ut molestiae eaque quisquam nulla nisi iusto.
+              Dicta et officia molestias? </p>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <div class="col-sm-3">
+        <div class="extra-info">
+          <h4>What's happening?</h4>
+          <p>//here comes the extra data//</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem velit quas, ea iste, facere accusamus est
+            a magni sed, modi aut nam incidunt neque itaque reprehenderit veniam odit. Accusantium, officia?</p><span
+            class="fa fa-globe" style="transform: scale(2)"></span>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sit consequuntur iure et placeat quidem?
+            Odio culpa quos aspernatur quasi neque! Hic numquam quae vel unde natus illo illum corporis?</p><span
+            class="fa fa-line-chart" style="transform: scale(2)"></span>
+          <hr>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <script>
+
+    function tweetHandler() {
+
+      alert("Here comes the page/input-box to type the tweet on the button-click");
+    }
+
+  </script>
+</body>
+
+
+</html>

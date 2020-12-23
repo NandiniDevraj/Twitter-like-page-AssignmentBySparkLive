@@ -1,0 +1,58 @@
+
+.mid-col{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height:700px;
+    
+  }
+  ul{
+    list-style: none; 
+    line-height: 70px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .mid-col::-webkit-scrollbar {
+  display: none;
+}
+li{
+  text-align: left;
+}
+li:hover{
+  
+ letter-spacing: 2px;
+
+}
+.user{
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+span{
+  padding: 5px;
+   transform: scale(1.5);
+}
+.twitter-logo{
+  padding: 5px;
+  color: lightskyblue; 
+  transform: scale(6);
+   padding: 50px;
+}
+.picture{
+  font-size:20px;
+   padding:4px; 
+  color:darkorange;
+}
+.each-row{
+  border-bottom: 1px dashed orange; 
+}
+.extra-info{
+  margin: 5%;
+   padding:15px;
+   background-color:lavender;
+   border: 1px solid lavender;
+    border-radius: 20%;
+}
+.each-p{
+  text-indent: 5%;
+}
